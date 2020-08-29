@@ -48,3 +48,16 @@ git config user.email "gitlab@xx.com"
 
 git config --list
 
+### git log
+
+git branch -v 查看本地有哪些分支
+
+git log --oneline 更简洁查看git log
+
+git log -n2 --oneline 查看最近两次log
+
+git log  --oneline --all 查看所有的log
+
+git log --oneline --graph 图形化查看log
+
+git log  develop --graph 查看develop分支的log
