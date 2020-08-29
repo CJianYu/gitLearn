@@ -75,4 +75,3 @@ git log  develop --graph 查看develop分支的log
 切换到master分支，新建一个分支，直接在新分支改
 
 ### pull request之前要做的
-
