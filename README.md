@@ -21,3 +21,11 @@ git reset --soft HEAD^   （HEAD^的意思是上一个版本，也可以写成HE
    - 输入两字大写字母`ZZ`（记住是大写）
    - 输入`:wq`或`:wq!`(强行退出)
 
+### 某仓库更改用户名邮箱
+
+git config user.name "gitlab's Name"
+
+git config user.email "gitlab@xx.com"
+
+git config --list
+
