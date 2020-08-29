@@ -61,3 +61,15 @@ git log  --oneline --all 查看所有的log
 git log --oneline --graph 图形化查看log
 
 git log  develop --graph 查看develop分支的log
+
+### 上线后的项目修改
+
+方法一：
+
+切换到master分支，新建一个分支
+
+将开发分支的修改提交cherry-pick过来
+
+方法二：
+
+切换到master分支，新建一个分支，直接在新分支改
