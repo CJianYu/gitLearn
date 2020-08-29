@@ -1,4 +1,23 @@
 # gitLearn
+
+### 开发分支改完合并到develop
+
+开发分支：
+
+git add .
+
+git commit 
+
+git push
+
+git log 拿到commitHash
+
+切换到develop：git checkout develop
+
+更新develop：git pull
+
+git cherry-pick <commitHash>
+
 ### 撤销git add
 
 git reset HEAD .
